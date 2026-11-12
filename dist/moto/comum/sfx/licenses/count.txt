@@ -1,0 +1,35 @@
+# Count: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Circlerun (OpenGameArt)
+Source: https://opengameart.org/content/hi-tech-button-sound-pack-i-non-themed
+Source file: SFX_0.zip -> SFX.rar -> Button Sound 9.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: Page "License(s)" field: "CC0", linking to http://creativecommons.org/publicdomain/zero/1.0/
+
+Processing recipe: Take the first 28 ms of the beep, low-pass 14 kHz, repeat 14 times every 47 ms with gains 1.0/0.82/0.90/0.78, then apply a 20 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.0,
+  "gain_db": -8.18,
+  "measured": {
+    "duration_s": 0.643,
+    "channels": 2,
+    "peak_dbfs": -11.18,
+    "loudness_200ms_lufs": -16.92,
+    "momentary_max_lufs": -17.31,
+    "short_term_max_lufs": -24.3
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -14.0,
+    "momentary_max_lufs": -14.39,
+    "short_term_max_lufs": -21.38
+  }
+}
+
+Source and license links:
+- https://opengameart.org/content/hi-tech-button-sound-pack-i-non-themed
+- https://opengameart.org/sites/default/files/SFX_0.zip
+- http://creativecommons.org/publicdomain/zero/1.0/

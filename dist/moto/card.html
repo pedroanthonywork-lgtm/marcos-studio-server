@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- Card Marcos Motos (sem IA). Dados no hash: card.html#<JSON url-encoded>. Gerado por templates/gerar.py.
+     tipo: "moto" | "entrega" · formato: "feed" (1080x1350) | "story" (1080x1920) · estilo: "estudio" | "ripado"
+     Campo vazio = não aparece. -->
+<html lang="pt-BR"><head><meta charset="utf-8"><style>
+@font-face{font-family:M;src:url("comum/Montserrat.ttf");font-weight:100 900;font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#0B0B0D;overflow:hidden}
+#c{position:relative;width:1080px;height:1350px;overflow:hidden;font-family:M,sans-serif;color:#fff;background:#0B0B0D}
+.story #c{height:1920px}
+#ph{position:absolute;left:0;right:0;top:0;bottom:0;background-size:cover;background-position:center}
+/* ripado: cabeçalho de madeira + faixa vermelha */
+#hd{display:none;position:absolute;left:0;right:0;top:0;height:300px;
+  background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.35)),
+  repeating-linear-gradient(90deg,#C99D6E 0 13px,#7A5536 13px 17px,#B88A5C 17px 30px,#634329 30px 34px)}
+#hd img{position:absolute;left:50%;top:50%;height:200px;transform:translate(-50%,-50%);filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+#rs{display:none;position:absolute;left:0;right:0;top:300px;height:22px;background:#E31B23;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.ripado #hd,.ripado #rs{display:block}
+.ripado #ph{top:322px}
+.story.ripado #hd{height:400px}.story.ripado #rs{top:400px}.story.ripado #ph{top:422px}
+.story.ripado #hd img{height:250px}
+/* faixa inferior */
+#bt{position:absolute;left:0;right:0;bottom:0;padding:0 34px 30px;
+  background:linear-gradient(0deg,rgba(0,0,0,.97) 0%,rgba(0,0,0,.9) 55%,rgba(0,0,0,0) 100%);padding-top:170px}
+.story #bt{padding-bottom:150px;padding-top:240px}
+#mod{text-align:center;font-weight:800;font-size:66px;line-height:1.1;letter-spacing:.5px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+#row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:20px;margin-top:18px}
+#sl{text-align:center;color:#FF2A2A;font-weight:800;font-size:36px;letter-spacing:7px}
+#pr{text-align:center;font-weight:800;font-size:104px;line-height:1.02;letter-spacing:-1px;white-space:nowrap}
+.col{font-weight:700;font-size:27px;line-height:1.3}
+.col .ln{margin:5px 0}
+.col.r{text-align:right}
+.ln{display:flex;align-items:center;gap:10px}
+#ft .ln{white-space:nowrap}
+.r .ln{justify-content:flex-end}
+.ic{width:30px;height:30px;flex:0 0 auto}
+#ft{display:flex;justify-content:space-between;align-items:center;margin-top:22px;font-weight:700;font-size:28px;opacity:.95}
+/* entrega */
+#en{text-align:center}
+#en .a{font-weight:900;font-size:62px;line-height:1.15;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+#en .b{margin-top:14px;font-weight:800;font-size:46px;color:#FFD9D9;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+#en .tag{display:inline-block;margin-bottom:22px;padding:10px 26px;background:#E31B23;font-weight:800;font-size:30px;letter-spacing:6px;border-radius:8px}
+.hide{display:none!important}
+</style></head><body>
+<div id="c">
+  <div id="ph"></div>
+  <div id="hd"><img src="comum/logo-claro.png"></div><div id="rs"></div>
+  <div id="bt">
+    <div id="moto">
+      <div id="mod"></div>
+      <div id="row">
+        <div class="col" id="ex"></div>
+        <div><div id="sl"></div><div id="pr"></div></div>
+        <div class="col r" id="dr"></div>
+      </div>
+      <div id="ft"><div class="ln" id="wa"></div><div class="ln" id="ci"></div></div>
+    </div>
+    <div id="en" class="hide"><div class="tag" id="etag"></div><div class="a" id="ea"></div><div class="b" id="eb"></div></div>
+  </div>
+</div>
+<script>
+const D = Object.assign({tipo:"moto",formato:"feed",estilo:"estudio",foto:"",modelo:"",ano:"",selo:"",preco:"",extras:[],
+  direita:["Financiamento","Aceitamos troca"],whatsapp:"(34) 99806-6037",cidade:"São Gotardo",nome:"",moto:"",etiqueta:""},
+  JSON.parse(decodeURIComponent(location.hash.slice(1)) || "{}"));
+const $ = id => document.getElementById(id), s = v => (v == null ? "" : String(v).trim());
+document.body.className = (D.formato === "story" ? "story " : "") + (D.estilo === "ripado" ? "ripado" : "");
+if (s(D.foto)) $("ph").style.backgroundImage = `url("${D.foto}")`;
+if (D.foco) $("ph").style.backgroundPosition = D.foco;
+const ICON = {
+  wa:'<svg class="ic" viewBox="0 0 24 24"><path fill="#25D366" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/><path fill="#fff" d="M8.6 7.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.6-.3.4c-.1.2-.2.3 0 .6.2.3.8 1.3 1.7 2 .9.8 1.7 1.1 2 1.2.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3 0 .2 0 .9-.3 1.5-.3.7-1.6 1.3-2.2 1.3-.6.1-1.1.3-3.8-.8-3.2-1.3-5.2-4.6-5.4-4.8-.2-.2-1.3-1.7-1.3-3.3 0-1.5.8-2.3 1.1-2.6z"/></svg>',
+  pin:'<svg class="ic" viewBox="0 0 24 24"><path fill="#E31B23" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>',
+  ok:'<svg class="ic" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="#E31B23"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  card:'<svg class="ic" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3" fill="#F5C518"/><rect x="2" y="8.5" width="20" height="2.6" fill="#7a5b00"/></svg>',
+  swap:'<svg class="ic" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="#2F80ED"/><path d="M7 9h9l-2.5-2.5M17 15H8l2.5 2.5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+};
+const line = (ic, t) => `<div class="ln">${ic}<span>${t.replace(/[<>&]/g, c => ({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]))}</span></div>`;
+function preco(p) { p = s(p); if (!p) return ""; if (/^\d+([.,]\d+)?$/.test(p.replace(/\./g, ""))) { const n = p.replace(/\./g, "").split(","); p = n[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (n[1] ? "," + n[1] : ""); } return /^R\$/i.test(p) ? p : "R$ " + p; }
+function fill(id, t) { t = s(t); $(id).textContent = t; if (!t) $(id).classList.add("hide"); }
+if (D.tipo === "entrega") {
+  $("moto").classList.add("hide"); $("en").classList.remove("hide");
+  const m = s(D.moto), n = s(D.nome);
+  fill("etag", D.etiqueta);
+  fill("ea", m ? `Parabéns pela linda ${m}${n ? " " + n : ""}!` : n ? `Parabéns, ${n}!` : "");
+  $("eb").textContent = "Deus abençoe sua conquista 🙏";
+} else {
+  fill("mod", [s(D.modelo), s(D.ano)].filter(Boolean).join(" - "));
+  fill("sl", D.selo ? s(D.selo).toUpperCase() : ""); fill("pr", preco(D.preco));
+  $("ex").innerHTML = (D.extras || []).map(s).filter(Boolean).map(t => line(ICON.ok, t)).join("");
+  $("dr").innerHTML = (D.direita || []).map(s).filter(Boolean).map(t => line(/financ/i.test(t) ? ICON.card : /troca|aceit/i.test(t) ? ICON.swap : ICON.ok, t)).join("");
+  $("wa").innerHTML = s(D.whatsapp) ? line(ICON.wa, s(D.whatsapp)) : ""; $("ci").innerHTML = s(D.cidade) ? line(ICON.pin, s(D.cidade)) : "";
+  if (!$("sl").textContent && !$("pr").textContent) $("row").style.gridTemplateColumns = "1fr 1fr";
+  // preço longo: reduz a fonte até caber
+  for (let f = 104; $("pr").scrollWidth > 470 && f > 60; f -= 4) $("pr").style.fontSize = f + "px";
+}
+</script>
+</body></html>

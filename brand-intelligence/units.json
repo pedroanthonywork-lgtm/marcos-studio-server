@@ -1,0 +1,8 @@
+{
+  "source": "pedido do dono da P7 + bio do Instagram @marcos_motos.sg + letreiro da fachada (12/11/2026)",
+  "units": [
+    { "id": "sao-gotardo", "name": "Marcos Motos", "city": "São Gotardo", "state": "MG", "instagram": "marcos_motos.sg",
+      "address": "Av. Brasil, 51, São Gotardo - MG (ao lado do Hiago Veículos)", "phone": "(34) 99806-6037", "hours": null,
+      "highlights": ["Motos 0km", "Seminovas", "Troca", "Financiamento"], "bio": "Motos de qualidade e melhor preço é aqui. Compra, venda, troca e financia.", "followersAt20261108": null }
+  ]
+}

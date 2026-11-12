@@ -1,0 +1,38 @@
+# Cash: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Joseph SARDIN (BigSoundBank.com)
+Source: https://bigsoundbank.com/metal-drawers-1-s0792.html + https://bigsoundbank.com/counter-bell-4-s2532.html
+Source file: 0792.wav (gaveta, em 8,00 s) + 2532.wav (sino, em 0,13 s)
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: "License CC0 (public domain): Free and royalty-free" on the sound page; the site license page permits "Use, including for commercial purposes" and "Share, copy, distribute and communicate the material by all means and in all formats"
+
+Processing recipe: Layer drawer at gain 0.9 and bell at gain 1.0 delayed 50 ms; light room-noise reduction; trim to 1.40 s with 2 ms attack and 120 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.07,
+  "gain_db": 1.84,
+  "measured": {
+    "duration_s": 1.4,
+    "channels": 2,
+    "peak_dbfs": -1.16,
+    "loudness_200ms_lufs": -12.03,
+    "momentary_max_lufs": -14.91,
+    "short_term_max_lufs": -23.58
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -9.11,
+    "momentary_max_lufs": -11.99,
+    "short_term_max_lufs": -20.66
+  }
+}
+
+Source and license links:
+- https://bigsoundbank.com/metal-drawers-1-s0792.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/0792.wav
+- https://bigsoundbank.com/licenses.html)
+- https://bigsoundbank.com/counter-bell-4-s2532.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/2532.wav
+- https://bigsoundbank.com/licenses.html,

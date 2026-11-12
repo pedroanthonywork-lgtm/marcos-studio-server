@@ -1,0 +1,36 @@
+# Pop: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Kenney (Kenney Vleugels, kenney.nl)
+Source: https://kenney.nl/assets/interface-sounds
+Source file: kenney_interface-sounds.zip -> Audio/select_006.ogg
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: Package License.txt: "License: (Creative Commons Zero, CC0)" and "This content is free to use in personal, educational and commercial projects."
+
+Processing recipe: Trim to 0.25 s with 2 ms attack and 90 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.003,
+  "gain_db": -4.5,
+  "measured": {
+    "duration_s": 0.25,
+    "channels": 2,
+    "peak_dbfs": -7.5,
+    "loudness_200ms_lufs": -16.92,
+    "momentary_max_lufs": -19.93,
+    "short_term_max_lufs": -28.68
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -14.0,
+    "momentary_max_lufs": -17.01,
+    "short_term_max_lufs": -25.76
+  }
+}
+
+Source and license links:
+- https://kenney.nl/assets/interface-sounds
+- https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip
+- http://creativecommons.org/publicdomain/zero/1.0/"
+- https://creativecommons.org/publicdomain/zero/1.0/

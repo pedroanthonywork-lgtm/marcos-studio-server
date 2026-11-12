@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "brand": { "name": "Marcos Motos", "taglinesObserved": [{ "text": "Motos de qualidade e melhor preço é aqui", "source": "bio do Instagram" }, { "text": "Compra · Venda · Troca · Financia", "source": "letreiro da fachada" }], "values": ["preço", "confiança", "fé"] },
+  "identidadeSite": {
+    "status": "sem site; identidade tirada do letreiro, dos posts do Instagram e do estúdio da loja (parede ripada de madeira + faixa vermelha)",
+    "palette": { "bg": "#0B0B0D", "bg3": "#151311", "fg": "#ffffff", "mut": "#a39b92", "cone": "#E31B23", "ember": "#E31B23", "filament": "#FF5A4E", "coneDark": "#9E1016", "madeira": "#B98A5A" },
+    "typography": { "display": { "family": "Montserrat", "use": "títulos 800-900 (cards e vídeos de moto)" }, "accent": { "family": "Onest", "use": "texto da interface" } },
+    "material": "Garagem de motos: preto, vermelho, madeira ripada; foto real da moto como protagonista",
+    "appliedTo": ["interface", "cards de moto", "vídeos de moto", "Reels premium"], "pendingFor": ["logo original em arquivo (o atual foi recriado do letreiro)"]
+  },
+  "identidadeOriginal": { "logo": { "description": "MARCOS / MOTOS em caixa alta itálica pesada, os dois M em vermelho, moto com piloto ao lado; no estúdio, letras de LED na parede de madeira." } },
+  "padraoPosts": {
+    "card": "foto no estúdio; faixa preta embaixo com modelo - ano, selo (PRONTA ENTREGA / OPORTUNIDADE / IMPERDÍVEL), preço grande, extras à esquerda, Financiamento / Aceitamos à direita, WhatsApp e São Gotardo",
+    "entrega": "foto do cliente com a moto + 'Parabéns pela linda [moto] [nome]! Deus abençoe sua conquista 🙏'"
+  },
+  "evolucaoPremium": { "palette": {}, "status": "Reels premium no estilo Garagem (ver premium/COMO-FAZER.md na pasta do cliente)" }
+}

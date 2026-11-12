@@ -1,0 +1,35 @@
+# Mouse Click: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Joseph SARDIN (BigSoundBank.com)
+Source: https://bigsoundbank.com/raspberry-mouse-single-click-s1735.html
+Source file: 1735.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: "License CC0 (public domain): Free and royalty-free" on the sound page; the site license page permits "Use, including for commercial purposes" and "Share, copy, distribute and communicate the material by all means and in all formats"
+
+Processing recipe: High-pass 60 Hz; emphasize 700 Hz, 1.8 kHz and 3.8 kHz; -6 dB shelf above 9 kHz; trim to 0.24 s with 40 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.0,
+  "gain_db": 1.8,
+  "measured": {
+    "duration_s": 0.24,
+    "channels": 2,
+    "peak_dbfs": -1.2,
+    "loudness_200ms_lufs": -19.79,
+    "momentary_max_lufs": -22.8,
+    "short_term_max_lufs": -31.55
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -16.87,
+    "momentary_max_lufs": -19.88,
+    "short_term_max_lufs": -28.63
+  }
+}
+
+Source and license links:
+- https://bigsoundbank.com/raspberry-mouse-single-click-s1735.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/1735.wav
+- https://bigsoundbank.com/licenses.html)

@@ -1,0 +1,35 @@
+# Metal Riser: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Joseph SARDIN (BigSoundBank.com); bass layer: SHK Soluções Digitais
+Source: https://bigsoundbank.com/cymbale-16-3-s2313.html
+Source file: 2313.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: "License CC0 (public domain): Free and royalty-free" on the sound page; the site license page permits "Use, including for commercial purposes" and "Share, copy, distribute and communicate the material by all means and in all formats"
+
+Processing recipe: Reverse the first 1.90 s after a 40 Hz high-pass; 0.35 s attack. Add synthetic bass sweeping 55 to 45 Hz and 30–120 Hz noise at -7 dB; 8 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 1.654,
+  "gain_db": -4.24,
+  "measured": {
+    "duration_s": 1.9,
+    "channels": 2,
+    "peak_dbfs": -7.24,
+    "loudness_200ms_lufs": -14.86,
+    "momentary_max_lufs": -15.9,
+    "short_term_max_lufs": -22.92
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -11.94,
+    "momentary_max_lufs": -12.98,
+    "short_term_max_lufs": -20.0
+  }
+}
+
+Source and license links:
+- https://bigsoundbank.com/cymbale-16-3-s2313.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/2313.wav
+- https://bigsoundbank.com/licenses.html)

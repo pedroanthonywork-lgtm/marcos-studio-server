@@ -1,0 +1,38 @@
+# Gears: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Joseph SARDIN (BigSoundBank.com) and Kenney Vleugels (kenney.nl); bass layer: SHK Soluções Digitais
+Source: https://bigsoundbank.com/winder-1-s1674.html + https://kenney.nl/assets/rpg-audio
+Source file: 1674.wav (de 1,52 s a 2,17 s) + kenney_rpg-audio.zip -> Audio/doorClose_4.ogg
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: BigSoundBank: "License CC0 (public domain): Free and royalty-free"; Kenney, Package License.txt: "License (Creative Commons Zero, CC0)"
+
+Processing recipe: Ratchet starts at zero; impact at 0.35 s, -4 dB, with 180 ms attack. Synthetic 70–220 Hz noise rises to 0.5 s and fades by 1.2 s at -8 dB; high-pass at 30 and 45 Hz; total 1.18 s, 50 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.362,
+  "gain_db": 0.25,
+  "measured": {
+    "duration_s": 1.178,
+    "channels": 2,
+    "peak_dbfs": -2.75,
+    "loudness_200ms_lufs": -16.92,
+    "momentary_max_lufs": -18.34,
+    "short_term_max_lufs": -25.5
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -14.0,
+    "momentary_max_lufs": -15.42,
+    "short_term_max_lufs": -22.58
+  }
+}
+
+Source and license links:
+- https://bigsoundbank.com/winder-1-s1674.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/1674.wav
+- https://bigsoundbank.com/licenses.html)
+- https://kenney.nl/assets/rpg-audio
+- https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip
+- http://creativecommons.org/publicdomain/zero/1.0/"

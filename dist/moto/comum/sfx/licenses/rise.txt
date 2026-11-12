@@ -1,0 +1,34 @@
+# Rise: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: UnKnownrNone (Wikimedia Commons), own work
+Source: https://commons.wikimedia.org/wiki/File:Phonk_Riser_(1)_Sample.wav
+Source file: Phonk_Riser_(1)_Sample.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: File-page metadata: "LicenseShortName": "CC0", "UsageTerms": "Creative Commons Zero, Public Domain Dedication"
+
+Processing recipe: Combine a reversed 1.45 s interval with its forward version; high-pass 500 Hz and low-pass 5500 Hz; trim to 2.60 s with 2 ms attack and 90 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 1.228,
+  "gain_db": -5.93,
+  "measured": {
+    "duration_s": 2.6,
+    "channels": 2,
+    "peak_dbfs": -8.93,
+    "loudness_200ms_lufs": -16.76,
+    "momentary_max_lufs": -17.31,
+    "short_term_max_lufs": -22.92
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -13.84,
+    "momentary_max_lufs": -14.39,
+    "short_term_max_lufs": -20.0
+  }
+}
+
+Source and license links:
+- https://commons.wikimedia.org/wiki/File:Phonk_Riser_(1)_Sample.wav
+- https://upload.wikimedia.org/wikipedia/commons/d/d2/Phonk_Riser_%281%29_Sample.wav

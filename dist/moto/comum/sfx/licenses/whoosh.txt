@@ -1,0 +1,37 @@
+# Whoosh: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: USC Cinema / Sunset Editorial Collection, published by jscott@archive.org
+Source: https://archive.org/details/SSE_Library_SWOOSHES
+Source file: WHOOSH/WHSH-FIREWORKS_Fireworks launching swooshes_CS_USC.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: Item metadata: "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/"
+
+Processing recipe: High-pass at 90 Hz to reduce tape rumble; light hiss reduction; trim to 0.85 s with 2 ms attack and 60 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.15,
+  "gain_db": -3.53,
+  "measured": {
+    "duration_s": 0.85,
+    "channels": 2,
+    "peak_dbfs": -6.53,
+    "loudness_200ms_lufs": -12.92,
+    "momentary_max_lufs": -14.7,
+    "short_term_max_lufs": -23.38
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -10.0,
+    "momentary_max_lufs": -11.78,
+    "short_term_max_lufs": -20.46
+  }
+}
+
+Source and license links:
+- https://archive.org/details/SSE_Library_SWOOSHES
+- https://creativecommons.org/publicdomain/zero/1.0/"
+- https://archive.org/download/SSE_Library_SWOOSHES/WHOOSH%2FWHSH-FIREWORKS_Fireworks%20launching%20swooshes_CS_USC.wav
+- https://creativecommons.org/publicdomain/zero/1.0/
+- https://archive.org/metadata/SSE_Library_SWOOSHES)

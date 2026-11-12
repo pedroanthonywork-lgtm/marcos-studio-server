@@ -1,0 +1,35 @@
+# Metal Hit: provenance and processing
+
+License: CC0 1.0 Universal (public domain); any synthesized layers are first-party MIT.
+Author: Pablo BERGEL, published by BigSoundBank.com; bass layer: SHK Soluções Digitais
+Source: https://bigsoundbank.com/anvil-2-s3590.html
+Source file: 3590.wav
+Verified in the original resource audit: 2026-09-16. The English rebuild does not claim a fresh provider-license audit.
+
+Recorded license statement: "License CC0 (public domain): Free and royalty-free" on the sound page; the site license page permits "Use, including for commercial purposes" and "Share, copy, distribute and communicate the material by all means and in all formats"
+
+Processing recipe: High-pass the first anvil strike at 200 Hz, trim to 1.02 s with 300 ms release, position at 0.17 s and -2 dB relative to synthetic bass. Bass drops 48 to 32 Hz and rises toward impact; total 1.45 s, 120 ms release.
+
+Measured calibration:
+{
+  "anchor_s": 0.164,
+  "gain_db": -3.3,
+  "measured": {
+    "duration_s": 1.45,
+    "channels": 2,
+    "peak_dbfs": -6.3,
+    "loudness_200ms_lufs": -13.74,
+    "momentary_max_lufs": -15.19,
+    "short_term_max_lufs": -22.92
+  },
+  "at_volume_1": {
+    "loudness_200ms_lufs": -10.82,
+    "momentary_max_lufs": -12.27,
+    "short_term_max_lufs": -20.0
+  }
+}
+
+Source and license links:
+- https://bigsoundbank.com/anvil-2-s3590.html
+- https://bigsoundbank.com/UPLOAD/bwf-en/3590.wav
+- https://bigsoundbank.com/licenses.html)
